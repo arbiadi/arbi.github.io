@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+body {
+    width: 100%;
+    font-family: open-sans;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+
+}
+
+h1:hover {
+    cursor: pointer;
+    transition: .2s;
+    letter-spacing: 5px;
+}
+
+.bngks {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+ol li {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 20px;
+    font-family: open-sans;
+    color: black;
+}
+
+ol li:hover {
+    cursor: pointer;
+    letter-spacing: 3px;
+    transition: .2s;
+}
+
+.peraturan {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: open-sans;
+    color: rgb(255, 41, 41);
+}
+
+.peraturan:hover {
+    cursor: pointer;
+    letter-spacing: 5px;
+    transition: .2s;
+}
+
+.bngks2 {
+    width: 100%;
+    margin: auto;
+    background-color: lightgrey;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-family: open-sans;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.58);
+}
+
+.judul {
+    font-size: 27px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+label {
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(41, 38, 38);
+}
+
+.isi {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.inputin, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input[type=radio] {
+    margin: 20px;
+}
+
+input[type=file] {
+    background-color: #fff;
+    border: none;
+    font-size: 12px;
+    color: gray;
+}
+
+button {
+    width: 100%;
+    background-color: darkgrey;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: orange;
+    transition: .2s;
+}
+
+@media only screen and (max-width: 768px) {
+    .header img{
+    width: 100%;
+    }
+
+    body {
+        box-sizing: border-box;
+    }
+
+    h1 {
+        font-size: 12px;
+    }
+
+    ol li {
+        font-size: 9px;
+    }
+
+    .petunjuk {
+        font-size: 10px;
+    }
+
+    .bngks2 {
+        padding: 15px;
+    }
+
+    .judul {
+        font-size: 15px;
+    }
+
+    label {
+        font-size: 12px;
+    }
+
+    .isi {
+        font-size: 9px;
+    }
+
+    .inputin, select {
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+
+    input[type=file] {
+        font-size: 10px;
+    }
+
+    button {
+        padding: 8px 10px;
+        margin: 8px 0;
+        cursor: pointer;
+        font-size: 10px;
+    }
+    
+}

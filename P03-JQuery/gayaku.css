@@ -1,0 +1,28 @@
+  body {
+    background-color: grey;
+    padding: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+th{
+  background-color: royalblue;
+}
+tr{
+  background-color: #2178ff;
+}
+  .koncoku{
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: white;
+    text-align: center;
+    padding: 17px;
+  }
+  
+  .koncoku:hover {
+    background-color: deepskyblue;
+  }
+  
